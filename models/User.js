@@ -1,4 +1,5 @@
 const { Schema, model } = require("mongoose");
+// const thoughtSchema = require("./Thought");
 
 const UserSchema = new Schema(
   {
@@ -35,7 +36,7 @@ const UserSchema = new Schema(
   }
 );
 
-UserSchema.virtuals("friendCount").get(function () {
+UserSchema.virtual("friendCount").get(function () {
   return this.friends.length;
 });
 
