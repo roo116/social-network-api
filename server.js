@@ -10,7 +10,7 @@ app.use(express.static("public"));
 
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost:27017/social-network",
+  process.env.MONGODB_URI || "mongodb://localhost:27017/delta-house",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
