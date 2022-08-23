@@ -9,7 +9,9 @@ const {
   } = require("../../controllers/thought-controller");
 
 // api/thoughts
-router.route("/").get(getAllThought).post(addThought)
+router.route("/").get(getAllThought)
+
+router.route("/:userId").post(addThought)
 
 router.route("/:id").get(getThoughtById).delete(removeThought)
 
