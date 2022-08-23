@@ -9,13 +9,14 @@ const {
   } = require("../../controllers/thought-controller");
 
 // api/thoughts
-router.route("/").get(getAllThought);
+router.route("/").get(getAllThought).post(addThought)
 
-router.route("/:id").get(getThoughtById).post(addThought);
+router.route("/:id").get(getThoughtById).delete(removeThought)
 
-router.route("/:userId/:thoughtId").put(addReaction).delete(removeThought);
+router.route("/:thoughtId/reactions").post(addReaction)
 
-router.route("/:userId/:throughtId/:reactionId").delete(removeReaction);
+//thought id now get reactions property from model then the id.
+router.route("/:thoughtId/reactions/:reactionId").delete(removeReaction);
 
 
 module.exports = router;

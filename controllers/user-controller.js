@@ -56,6 +56,39 @@ const userController = {
       .then((dbUserData) => res.json(dbUserData))
       .catch((err) => res.json(err));
   },
+
+  addFriend({ params }, res) {
+    User.findOneAndUpdate(
+      { _id: params.userid },
+      { $addToSet: { friends: params.friendid } },
+      {
+        new: true,
+        runValidators: true,
+      }
+    )
+      .then((dbUserData) => {
+        if (!dbUserData) {
+          return res.status(404).json({ message: "NOT AGAIN!!!" });
+        }
+        res.json(dbUserData);
+      })
+      .catch((err) => res.json(err));
+  },
+
+  removeFriend({ params }, res) {
+    User.findOneAndUpdate(
+      { _id: params.userid },
+      { $pull: { friends: params.friendid } },
+      { new: true, runValidators: true }
+    )
+      .then((dbUserData) => {
+        if (!dbUserData) {
+          return res.status(404).json({ message: "NOT AGAIN!!!" });
+        }
+        res.json(dbUserData);
+      })
+      .catch((err) => res.json(err));
+  },
 };
 
 
