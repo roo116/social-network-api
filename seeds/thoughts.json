@@ -1,27 +1,44 @@
-[{
-  "_id": {
-    "$oid": "6302dc6a9518bb28723fd655"
+[
+  {
+    "_id": {
+      "$oid": "6302dc6a9518bb28723fd655"
+    },
+    "thoughtText": "No sweat. My brother Fred was a Delta.  That makes me a legacy.",
+    "username": "Flounder",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1661131882598"
+      }
+    },
+    "reactions": [],
+    "__v": 0
   },
-  "username": "Flounder",
-  "thoughtText": "No sweat. My brother Fred was a Delta.  That makes me a legacy.",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1661131882598"
-    }
+  {
+    "_id": {
+      "$oid": "6302e652f9a159f082b1c540"
+    },
+    "thoughtText": "Eric Stratton, rush chairman.  Damn glad to meet you.",
+    "username": "Otter",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1661134418181"
+      }
+    },
+    "reactions": [],
+    "__v": 0
   },
-  "reactions": [],
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "6302e652f9a159f082b1c540"
-  },
-  "username": "Otter",
-  "thoughtText": "Eric Stratton, rush chairman.  Damn glad to meet you.",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1661134418181"
-    }
-  },
-  "reactions": [],
-  "__v": 0
-}]
+  {
+    "_id": {
+      "$oid": "63046dca374692855867fc59"
+    },
+    "thoughtText": "Good.  Now we have an old saying in Delta:  Don't get mad -- get even.",
+    "username": "DDay",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1661234634151"
+      }
+    },
+    "reactions": [],
+    "__v": 0
+  }
+]
