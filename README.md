@@ -4,7 +4,8 @@
   
   
 ## Project Description
-This project uses MongoDB as a back end, and mongoose as an ODM to demonstrate APIs.  
+This project uses MongoDB as a datastore, and mongoose as an ODM to demonstrate APIs.  
+GitHub Repository -  https://github.com/roo116/social-network-api
   
 ## Table of Contents
   - [Installation](#installation)
@@ -19,18 +20,31 @@ This project uses MongoDB as a back end, and mongoose as an ODM to demonstrate A
 This application requires [Insomnia](https://insomnia.rest/download), and [MongoDB](https://www.mongodb.com/) (community version works).  Google those packagesnif you don't know 
 1. Clone or fork https://github.com/roo116/social-network-api
 2. run `npm i` to install dependencies
-3. 
 
-
-  
+ 
 ## Usage
-none
+1. Type `npm start` from the root directory of the application folder.
+2. You can test these routes in Insomnia.
+3. Routes
+
+http://localhost:3001/ may be used to run these locally on a user's system.
+
+User Routes  
+<img src='./img/user-api-routes.png' style='width:400px'/>  
+Thought Routes  
+<img src='./img/thought-api-routes.png' style='width:400px'/>   
+
+
+
+
+
   
 ## License
 This is licensed under the MIT license. See the badge for the link to the license information.
   
 ## Contributing
 contact using the contact methods below.
+
   
 ## Tests
 
