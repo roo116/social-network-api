@@ -21,18 +21,43 @@ This application requires [Insomnia](https://insomnia.rest/download), and [Mongo
 1. Clone or fork https://github.com/roo116/social-network-api
 2. run `npm i` to install dependencies
 
+When you first run the application it should automatically build the database in MongoDB
+
+Video of startup - https://drive.google.com/file/d/1kBc2mor6vyLDmZXd4BbNj-Yptb59UcGH/view?usp=sharing
  
 ## Usage
 1. Type `npm start` from the root directory of the application folder.
 2. You can test these routes in Insomnia.
 3. Routes
 
-http://localhost:3001/ may be used to run these locally on a user's system.
-
 User Routes  
 <img src='./img/user-api-routes.png' style='width:400px'/>  
 Thought Routes  
 <img src='./img/thought-api-routes.png' style='width:400px'/>   
+
+
+http://localhost:3001/ may be used to run these locally on a user's system.
+
+Here are video examples of the various routes.
+
+Get Routes - https://drive.google.com/file/d/1q5xFAS7TIS4yhJKpatwRspn5myDfoqAC/view?usp=sharing
+
+Add User - https://drive.google.com/file/d/1CoKioLuNjOF1hWiBKVn-Z5VQMYXf8iQz/view?usp=sharing  
+Add Thought - https://drive.google.com/file/d/1bMHDVlLDipIbDxeFMvv7Dfq_Phm--i3k/view?usp=sharing  
+Add Friend - https://drive.google.com/file/d/1J1AXtKv4ImXIA7exJJumBn5jJ-H5FReq/view?usp=sharing  
+Add Reaction - https://drive.google.com/file/d/1osVB9NTnaeH_34DC3INCwqi5fuYK6XN3/view?usp=sharing  
+
+Update User - https://drive.google.com/file/d/1c56_r7FvSqZNEqn4Cr15u__8G1qrqubm/view?usp=sharing  
+Update Thought - https://drive.google.com/file/d/1NdY6Wjz-8rto_Y9pxGFXK5my9l1NEXQo/view?usp=sharing  
+
+Delete User - https://drive.google.com/file/d/1c56_r7FvSqZNEqn4Cr15u__8G1qrqubm/view?usp=sharing  
+Delete Thought - https://drive.google.com/file/d/1yQ20H4FLF0zHRvQ4L9kc-BJUvTgwvhqN/view?usp=sharing
+Remove Friend - https://drive.google.com/file/d/1vIlpKTJBAsOhICGbpWzlX9I3RD6w3AYp/view?usp=sharing  
+Remove Reaction - https://drive.google.com/file/d/1xdknpUN1Kyb7iPlU1Rk5qmV1KJai24Yw/view?usp=sharing
+
+
+
+
 
 
 
